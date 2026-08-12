@@ -3,6 +3,7 @@ library(haven)
 library(tidyr)
 library(scales)
 
+tenderos <- read_dta("https://raw.githubusercontent.com/mariapaulamonroym-bit/Taller_Tenderos/main/TenderosFU03_Publica.dta")
 
 #Tarea 1
 #Objetivo: pasar de la base a nivel de TIENDA a una base a nivel de CIUDAD, calculando la proporción de tenderos que usan internet en cada ciudad.
