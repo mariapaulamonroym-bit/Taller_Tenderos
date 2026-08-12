@@ -1,2 +1,7 @@
 # Taller_Tenderos
 # Este repositorio contiene el script en R desarrollado para implementar un análisis estadístico de una extensa base de datos, en la que se analiza la penetración de internet entre tenderos de barrio en 10 ciudades de Colombia, a partir de la Encuesta puesta a disposición. El script parte de la base a nivel de tienda (cargada directamente desde este repositorio) y calcula el porcentaje de tenderos que usa internet agrupando por ciudad, por sector económico (usando las variables actG1 a actG11, que no son mutuamente excluyentes) y por la combinación de ambos, entregando además dos formatos de salida: una base larga (para visualizar en PowerBI) y una base extensa (para gráficos de dispersión por sector). Para correrlo solo se necesita tener instalados los paquetes dplyr, haven, tidyr y scales, y ejecutar el código en RStudio.
+
+#Trabajo realizado por:
+#1. María Paula Monroy
+#2. Sara Natalia Vásquez
+#3. Samuel Mora
